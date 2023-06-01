@@ -1,0 +1,9 @@
+[build]
+  command = "ng build --prod"
+  publish = "dist/thetaquest-netlify-production"
+
+[[redirects]]
+  from = "/*"
+  to = ""
+  status = 200
+
